@@ -1,0 +1,158 @@
+body, html{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#header
+{
+	background: #000;
+	color: #fff;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+}
+
+#content{
+	padding-top: 35px;
+}
+#content-left{
+	width: 16%;
+	background: #000;
+	height: 100%;
+	position: fixed;
+	border-top: #fff;
+}
+
+#content-right{
+	margin-left: 16%;
+	width: 84%;
+	
+	
+}
+
+
+
+.bordered-col{
+	border: 1px solid #d0d0d0;
+	padding: 10px;
+	background: rgb(253, 253, 253);
+	border-radius: 5px;
+}
+
+#content-right-wrapper{
+	
+	padding: 25px;
+}
+.nav a{
+	color: rgb(102, 102, 102);
+	display: block;
+}
+
+
+h1,h3,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+
+
+.panel-table-wrapper
+{
+	padding: 20px;
+}	
+
+
+
+.row-item-col{
+	width: 49%;
+}
+
+
+.row-item-col.left{
+	margin-right: 2%;
+}
+
+
+.modal-dialog
+{
+	margin: 130px auto;
+	background: #fff;
+}
+
+
+.panel-table-wrapper{
+	padding-bottom: 40px;
+}
+#table_info, #table_paginate{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+.panel-default > .panel-heading {
+	background-color: #F7F7F7;
+	padding: 5px 15px;
+	overflow: auto;
+}
+.panel-title {
+	padding: 5px 0;
+	font-size: 20px;
+	text-shadow: 1px 1px 0 #FFF;
+}
+.panel-title i {
+	color: #5BC0DE;
+}
+.breadcrumb {
+	border: 1px solid #E5E5E5;
+	background: #FFFFFF;
+	padding: 0px 14px;
+	margin-bottom: 15px;
+}
+.breadcrumb li:first-child a {
+	font-size: 13px;
+}
+.breadcrumb li a {
+	float: left;
+	padding: 5px 0px;
+	line-height: 20px;
+	color: #464646;
+	font-size: 12px;
+}
+.breadcrumb li a:hover {
+	text-decoration: none;
+}
+.breadcrumb li + li {
+	padding-left: 14px;
+}
+.breadcrumb > li + li:before {
+	content: '';
+}
+.breadcrumb > li:after {
+	position: relative;
+	top: 4px;
+	content: '';
+	display: inline-block;
+	width: 22px;
+	height: 23px;
+	border-top: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.fll{
+	float: left;
+}
+
+.flr{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}

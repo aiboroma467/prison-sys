@@ -1,0 +1,81 @@
+.box-info
+{
+	border-bottom: 1px solid #d0d0d0;
+	padding: 4px;
+}
+
+
+.box-content
+{
+	border: 1px solid #d0d0d0;
+}
+
+.box-info
+{
+	padding: 5px;
+}
+
+.boxSectionHeader
+{
+	padding: 6px;
+	border-top: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+	background: rgb(248, 248, 248);
+}
+
+
+.formError:before
+{
+	content: " * ";
+}
+.formTable
+{
+	border-collapse: collapse;
+}
+.formSectionCellLabel
+{
+	text-align: right;
+	background: rgb(238, 238, 238);
+}
+.formSectionCellInput
+{
+	padding-left: 10px;
+}
+.labelLeft
+{
+	border-right: 1px solid #d0d0d0;
+	padding-right: 3px;
+	font-size: 11px;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.labelRight
+{
+	border-right: 1px solid #d0d0d0;
+	border-left: 1px solid #d0d0d0;
+	padding-right: 3px;
+	border-bottom: 1px solid #d0d0d0;
+	font-size: 11px;
+}
+
+.formSectionCellInput input, .formSectionCellInput select
+{	
+	margin: 0;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #d0d0d0;
+	width: 250px;
+	padding: 4px;
+}
+
+.formSectionCellInput
+{
+	padding-top: 3px;
+	border-bottom: 1px solid #d0d0d0;
+	vertical-align: middle;
+}
+
+.formError{
+	color: brown;
+	font-size: 13px;
+}
